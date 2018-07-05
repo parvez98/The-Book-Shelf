@@ -51,7 +51,7 @@ public class BookActivity extends AppCompatActivity {
         imageView.setImageResource(slides);
 
         viewFlipper.addView(imageView);
-        viewFlipper.setFlipInterval(4000);
+        viewFlipper.setFlipInterval(2500);
         viewFlipper.setAutoStart(true);
 
 
