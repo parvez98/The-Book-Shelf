@@ -2,9 +2,11 @@
 An Android app which reviews and provides sneak peaks of famous movies and TV shows that are based on novels.
 
 ## Inspiration
-Received the inspiration when I discovered CardView in Android and decided to turn my book shelf into an app.
+Got the inspiration when I discovered CardView in Android and decided to turn my book shelf into an app.
 
 ## Video Demo 
+Click the image below to see the demo:
+
 [![The Book Shelf](https://img.youtube.com/vi/ZWexTmj-OOA/0.jpg)](http://www.youtube.com/watch?v=ZWexTmj-OOA)
  
 ## Description
@@ -15,4 +17,4 @@ Received the inspiration when I discovered CardView in Android and decided to tu
 ## How it is built
 - [x] Uses **CardView** and **RecyclerView** along with **GridLayout** to build the UI
 - [x] Utilizes **ViewFlipper** to create a slideshow of images
-- [x] Built an Adapter class to transfer of data from database to the main *book* activity
+- [x] Built an Adapter class to transfer of data from database to the *main book activity*
