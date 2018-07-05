@@ -5,7 +5,7 @@ An Android app which reviews and provides sneak peaks of famous movies and TV sh
 Received the inspiration when I discovered CardView in Android and decided to turn my book shelf into an app.
 
 ## Video Demo 
-[![The Book Shelf](http://img.youtube.com/vi/https://youtu.be/ZWexTmj-OOA/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/ZWexTmj-OOA "The Book Shelf")
+https://youtu.be/ZWexTmj-OOA
 
 ## Description
 - Presents a grid view of the novels
