@@ -17,4 +17,4 @@ Click the image below to see the demo:
 ## How it is built
 - [x] Uses **CardView** and **RecyclerView** along with **GridLayout** to build the UI
 - [x] Utilizes **ViewFlipper** to create a slideshow of images
-- [x] Built an Adapter class to transfer of data from database to the *main book activity*
+- [x] Built an Adapter class to transfer data from database to the **_main book activity_**
