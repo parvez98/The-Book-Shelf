@@ -1,5 +1,6 @@
 package edu.purdue.parvezs.thebookshelf;
 
+import android.content.SharedPreferences;
 import android.os.RemoteCallbackList;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerViewAccessibilityDelegate;
+import android.view.OrientationEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,7 +58,12 @@ public class MainActivity extends AppCompatActivity {
 
         view = (RecyclerView)findViewById(R.id.recyclerView);
         bookadapter = new BookAdapter(this, bookDataList);
-        view.setLayoutManager(new GridLayoutManager(this, 2));
+        if(getResources().getConfiguration().orientation == 1) {
+            view.setLayoutManager(new GridLayoutManager(this, 2));
+        }
+        else if(getResources().getConfiguration().orientation == 2){
+            view.setLayoutManager(new GridLayoutManager(this, 4));
+        }
         view.setAdapter(bookadapter);
     }
 }
