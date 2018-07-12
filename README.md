@@ -13,8 +13,10 @@ Click the image below to see the demo:
 - Presents a grid view of the novels
 - Users can click on any novel to read details
 - Details include a brief summary and slideshow of stills from the respective movie or TV show
+- Compatible with landscape and portrait screen orientations
 
 ## How it is built
 - [x] Uses **CardView** and **RecyclerView** along with **GridLayout** to build the UI
 - [x] Utilizes **ViewFlipper** to create a slideshow of images
 - [x] Built an Adapter class to transfer data from database to the **_main book activity_**
+- [x] Programmed an algorithm to read and process database
