@@ -7,7 +7,7 @@ Got the inspiration when I discovered CardView in Android and decided to turn my
 ## Video Demo 
 Click the image below to see the demo:
 
-[![The Book Shelf](https://img.youtube.com/vi/ZWexTmj-OOA/0.jpg)](http://www.youtube.com/watch?v=ZWexTmj-OOA)
+[![The Book Shelf](https://img.youtube.com/vi/ck8a9BdIPEc/0.jpg)](https://youtu.be/ck8a9BdIPEc)
  
 ## Description
 - Presents a grid view of the novels
